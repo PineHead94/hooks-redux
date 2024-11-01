@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  gap: 1em;
 }
 
 .App-logo {
@@ -35,4 +37,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.lazy-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
+.hooks-main-container {
+  display: none;
 }
